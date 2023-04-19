@@ -27,4 +27,4 @@ def main():
         st.write("The largest number among the three is : ",largest)
 
 
-streamlit.run largest_streamlit.py
+
