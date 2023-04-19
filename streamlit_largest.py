@@ -25,11 +25,9 @@ def find_largest(num1,num2,num3):
    largest = num3
   return("The largest number among the three is ",largest)
 
-def user_input_features():
-  
-  num1 = st.number_input("Enter first number")
-  num2= st.number_input("Enter second number")
-  num3= st.number_input("Enter third number")
+num1 = st.number_input("Enter first number")
+num2= st.number_input("Enter second number")
+num3= st.number_input("Enter third number")
 
 if st.button('Find Largest'):
     large_num = find_largest(num1,num2,num3)
